@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
        fontFamily: "Cairo",
         scaffoldBackgroundColor: kBackgroundColor,
@@ -38,7 +39,7 @@ class HomeScreen extends StatelessWidget {
               color: Color(0xFFF5CEB8),
               image: DecorationImage(
                 alignment: Alignment.centerLeft,
-                image: AssetImage("assets/images/shradha.jpg"), //edit this image
+                image: AssetImage("assets/images/stethoscope-icon-g4b7fa5042_1280.png"), //edit this image
               ),
             ),
           ),
